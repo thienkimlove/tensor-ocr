@@ -93,3 +93,6 @@ ENV/
 
 # For mac
 .DS_Store
+
+gen_data/images
+gen_data/crops
