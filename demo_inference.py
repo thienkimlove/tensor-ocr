@@ -37,7 +37,7 @@ def get_dataset_image_size(dataset_name):
   # Ideally this info should be exposed through the dataset interface itself.
   # But currently it is not available by other means.
   ds_module = getattr(datasets, dataset_name)
-  height, width, _ = 200, 200, 3
+  height, width, _ = 389, 406, 3
   return width, height
 
 
