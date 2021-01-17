@@ -37,7 +37,7 @@ def get_dataset_image_size(dataset_name):
   # Ideally this info should be exposed through the dataset interface itself.
   # But currently it is not available by other means.
   ds_module = getattr(datasets, dataset_name)
-  height, width, _ = 40, 139, 3
+  height, width, _ = 389, 406, 3
   return width, height
 
 
@@ -78,7 +78,7 @@ def run(checkpoint, batch_size, dataset_name, image_path_pattern):
     checkpoint_filename_with_path=checkpoint)
   with monitored_session.MonitoredSession(
       session_creator=session_creator) as sess:
-    predictions = sess.run(endpoints.predicted_chars,
+    predictions = sess.run(endpoints.predicted_text,
                            feed_dict={images_placeholder: images_data})
   return predictions
 
