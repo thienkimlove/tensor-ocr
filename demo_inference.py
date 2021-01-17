@@ -78,17 +78,16 @@ def run(checkpoint, batch_size, dataset_name, image_path_pattern):
     checkpoint_filename_with_path=checkpoint)
   with monitored_session.MonitoredSession(
       session_creator=session_creator) as sess:
-    predictions = sess.run(endpoints.predicted_text,
+    predictions = sess.run(endpoints.predicted_chars,
                            feed_dict={images_placeholder: images_data})
-  return predictions.tolist()
+  return predictions
 
 
 def main(_):
   print("Predicted strings:")
   predictions = run(FLAGS.checkpoint, FLAGS.batch_size, FLAGS.dataset_name,
                   FLAGS.image_path_pattern)
-  for line in predictions:
-    print(line.decode('utf-8'))
+  print(predictions)
 
 
 if __name__ == '__main__':
