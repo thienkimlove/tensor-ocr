@@ -29,15 +29,15 @@ DEFAULT_CONFIG = {
     'name': 'QuanDM',
     'splits': {
         'train': {
-            'size': 600,
+            'size': 500,
             'pattern': 'train.tfrecord'
         },
         'test': {
-            'size': 20404,
+            'size': 200,
             'pattern': 'test.tfrecord'
         },
         'validation': {
-            'size': 16150,
+            'size': 68,
             'pattern': 'valid.tfrecord'
         }
     },

@@ -90,6 +90,10 @@ def get_tf_records(train_total, test_total):
 	files = list(annot['files'].values)
 	random.shuffle(files)
 
+	record_train = 0
+	record_test = 0
+	record_valid = 0
+
 	for i, file in enumerate(files):
 		print('writing file:', file)
 		annotation = annot[annot['files'] == file]
@@ -97,18 +101,25 @@ def get_tf_records(train_total, test_total):
 		example = get_tf_example(CROP_DIR + '/' + file, annotation)
 		if i < train_total:
 			train_writer.write(example.SerializeToString())
+			record_train += 1
 		elif i < test_total:
 			test_writer.write(example.SerializeToString())
+			record_test += 1
 		else:
 			valid_writer.write(example.SerializeToString())
+			record_valid += 1
 
 	train_writer.close()
 	test_writer.close()
 	valid_writer.close()
 
+	print("TOtal train {}".format(record_train))
+	print("TOtal test {}".format(record_test))
+	print("TOtal valid {}".format(record_valid))
+
 
 if __name__ == '__main__':
-	get_tf_records(600, 800)
+	get_tf_records(500, 700)
 
 
 
