@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="83083145-6ff7-46e0-b315-6ee48fc02150" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/datasets/quandm.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/quandm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_data/test.tfrecord" beforeDir="false" afterPath="$PROJECT_DIR$/gen_data/test.tfrecord" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_data/train.tfrecord" beforeDir="false" afterPath="$PROJECT_DIR$/gen_data/train.tfrecord" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_data/valid.tfrecord" beforeDir="false" afterPath="$PROJECT_DIR$/gen_data/valid.tfrecord" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_tf_records.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_tf_records.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_tf_records.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1789">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="155">
+              <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -58,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_data/ano.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            <state relative-caret-position="334">
+              <caret line="769" selection-start-line="769" selection-end-line="769" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -80,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="196">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="e#778#787#0" expanded="true" />
               </folding>
@@ -126,9 +130,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/.gitinogre" />
         <option value="$PROJECT_DIR$/demo_inference.py" />
-        <option value="$PROJECT_DIR$/get_tf_records.py" />
         <option value="$PROJECT_DIR$/gen_data/ano.csv" />
         <option value="$PROJECT_DIR$/datasets/quandm.py" />
+        <option value="$PROJECT_DIR$/get_tf_records.py" />
       </list>
     </option>
   </component>
@@ -207,18 +211,17 @@
       <workItem from="1610704120854" duration="179000" />
       <workItem from="1610704381445" duration="1679000" />
       <workItem from="1610726975979" duration="15120000" />
-      <workItem from="1611567790844" duration="962000" />
+      <workItem from="1611567790844" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17940000" />
+    <option name="totallyTimeSpent" value="18232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26328802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26328802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32925338" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32925338" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,26 +355,6 @@
     <entry file="file://$PROJECT_DIR$/gen_data/charset-labels.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_tf_records.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1789">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_data/ano.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitinogre">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2231">
@@ -379,10 +362,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen_data/ano.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="334">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_tf_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="196">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="e#778#787#0" expanded="true" />
           </folding>
