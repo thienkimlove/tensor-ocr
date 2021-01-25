@@ -42,7 +42,7 @@ DEFAULT_CONFIG = {
         }
     },
     'charset_filename': 'charset-label.txt',
-    'image_shape': (63, 207, 3),
+    'image_shape': (200, 200, 3),
     'num_of_views': 1,
     'max_sequence_length': 10,
     'null_code': 43,
