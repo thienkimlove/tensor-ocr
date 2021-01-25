@@ -6,10 +6,10 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.python.platform import gfile
 
-ANNOTATION_FILE = 'gen_data/annot_file.csv'
+ANNOTATION_FILE = 'gen_data/ano.csv'
 CROP_DIR = 'gen_data/crops'
 
-MAX_STR_LEN = 8
+MAX_STR_LEN = 10
 null = 43
 
 

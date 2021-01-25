@@ -23,8 +23,6 @@ from tensorflow.python.platform import flags
 from tensorflow.python.training import monitored_session
 
 import datasets, data_provider, common_flags
-from datasets import quandm
-
 FLAGS = flags.FLAGS
 common_flags.define()
 
@@ -37,7 +35,7 @@ def get_dataset_image_size(dataset_name):
   # Ideally this info should be exposed through the dataset interface itself.
   # But currently it is not available by other means.
   ds_module = getattr(datasets, dataset_name)
-  height, width, _ = 389, 406, 3
+  height, width, _ = ds_module.DEFAULT_CONFIG['image_shape']
   return width, height
 
 
@@ -48,7 +46,7 @@ def load_images(file_pattern, batch_size, dataset_name):
   for i in range(batch_size):
     path = file_pattern % i
     print("Reading %s" % path)
-    pil_image = PIL.Image.open(path)
+    pil_image = PIL.Image.open(tf.gfile.GFile(file_pattern))
     images_actual_data[i, ...] = np.asarray(pil_image)
   return images_actual_data
 
@@ -80,14 +78,15 @@ def run(checkpoint, batch_size, dataset_name, image_path_pattern):
       session_creator=session_creator) as sess:
     predictions = sess.run(endpoints.predicted_text,
                            feed_dict={images_placeholder: images_data})
-  return predictions
+  return predictions.tolist()
 
 
 def main(_):
   print("Predicted strings:")
   predictions = run(FLAGS.checkpoint, FLAGS.batch_size, FLAGS.dataset_name,
                   FLAGS.image_path_pattern)
-  print(predictions)
+  for line in predictions:
+    print(line)
 
 
 if __name__ == '__main__':
