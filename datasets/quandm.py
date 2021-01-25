@@ -44,7 +44,7 @@ DEFAULT_CONFIG = {
     'charset_filename': 'charset-label.txt',
     #'image_shape': (150, 600, 3),
     'num_of_views': 1,
-    'max_sequence_length': 8,
+    'max_sequence_length': 10,
     'null_code': 43,
     'items_to_descriptions': {
         'image': 'A [150 x 600 x 3] color image.',

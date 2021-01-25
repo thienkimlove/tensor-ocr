@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83083145-6ff7-46e0-b315-6ee48fc02150" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gen_data/ano.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_data/test.tfrecord" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_data/train.tfrecord" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_data/valid.tfrecord" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_tf_records.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_tf_records.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/quandm.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/quandm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_data/ano.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state>
@@ -83,11 +77,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="213">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding>
                 <element signature="e#778#787#0" expanded="true" />
               </folding>
@@ -130,11 +124,11 @@
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/datasets/quandm.py" />
         <option value="$PROJECT_DIR$/.gitinogre" />
         <option value="$PROJECT_DIR$/demo_inference.py" />
         <option value="$PROJECT_DIR$/get_tf_records.py" />
         <option value="$PROJECT_DIR$/gen_data/ano.csv" />
+        <option value="$PROJECT_DIR$/datasets/quandm.py" />
       </list>
     </option>
   </component>
@@ -159,7 +153,7 @@
             <path>
               <item name="tensor-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensor-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensor-ocr" type="b2602c69:ProjectViewProjectNode" />
@@ -182,8 +176,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/gen_data" />
+      <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/demo" />
     </key>
@@ -213,15 +207,16 @@
       <workItem from="1610704120854" duration="179000" />
       <workItem from="1610704381445" duration="1679000" />
       <workItem from="1610726975979" duration="15120000" />
-      <workItem from="1611567790844" duration="807000" />
+      <workItem from="1611567790844" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17785000" />
+    <option name="totallyTimeSpent" value="17940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26328802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,25 +326,8 @@
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitinogre">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2231">
-          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen_data/images/1.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding>
-            <element signature="e#778#787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -392,6 +370,23 @@
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitinogre">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2231">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding>
+            <element signature="e#778#787#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
