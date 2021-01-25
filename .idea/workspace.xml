@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83083145-6ff7-46e0-b315-6ee48fc02150" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/demo_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="-744">
               <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="e#772#790#0" expanded="true" />
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="-333">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
                 <element signature="e#778#787#0" expanded="true" />
               </folding>
@@ -108,6 +108,7 @@
       <find>iteritems</find>
       <find>gfile</find>
       <find>get_dataset_image_size</find>
+      <find>decode</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -127,8 +128,8 @@
         <option value="$PROJECT_DIR$/.gitinogre" />
         <option value="$PROJECT_DIR$/gen_data/ano.csv" />
         <option value="$PROJECT_DIR$/get_tf_records.py" />
-        <option value="$PROJECT_DIR$/datasets/quandm.py" />
         <option value="$PROJECT_DIR$/demo_inference.py" />
+        <option value="$PROJECT_DIR$/datasets/quandm.py" />
       </list>
     </option>
   </component>
@@ -207,15 +208,16 @@
       <workItem from="1610704120854" duration="179000" />
       <workItem from="1610704381445" duration="1679000" />
       <workItem from="1610726975979" duration="15120000" />
-      <workItem from="1611567790844" duration="1930000" />
+      <workItem from="1611567790844" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18908000" />
+    <option name="totallyTimeSpent" value="19117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26328802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -370,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datasets/quandm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="-333">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
             <element signature="e#778#787#0" expanded="true" />
           </folding>
@@ -380,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="-744">
           <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="e#772#790#0" expanded="true" />
