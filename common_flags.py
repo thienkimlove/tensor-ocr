@@ -47,7 +47,7 @@ def define():
   flags.DEFINE_integer('crop_height', None,
                        'Height of the central crop for images.')
 
-  flags.DEFINE_string('train_log_dir', 'logs',
+  flags.DEFINE_string('train_log_dir', '/content/drive/MyDrive/datasets/ocr4',
                       'Directory where to write event logs.')
 
   flags.DEFINE_string('dataset_name', 'number_plates',
@@ -56,7 +56,7 @@ def define():
   flags.DEFINE_string('split_name', 'test',
                       'Dataset split name to run evaluation for: test,train.')
 
-  flags.DEFINE_string('dataset_dir', None,
+  flags.DEFINE_string('dataset_dir', 'custom',
                       'Dataset root folder.')
 
   flags.DEFINE_string('checkpoint', None,

@@ -23,7 +23,7 @@ from tensorflow.python.platform import flags
 from tensorflow.python.training import monitored_session
 
 import datasets, data_provider, common_flags
-from datasets import quandm
+from datasets import quandm, number_plates
 
 FLAGS = flags.FLAGS
 common_flags.define()
@@ -37,7 +37,7 @@ def get_dataset_image_size(dataset_name):
   # Ideally this info should be exposed through the dataset interface itself.
   # But currently it is not available by other means.
   ds_module = getattr(datasets, dataset_name)
-  height, width, _ = quandm.DEFAULT_CONFIG['image_shape']
+  height, width, _ = number_plates.DEFAULT_CONFIG['image_shape']
   return width, height
 
 
