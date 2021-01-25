@@ -88,7 +88,7 @@ def main(_):
   predictions = run(FLAGS.checkpoint, FLAGS.batch_size, FLAGS.dataset_name,
                   FLAGS.image_path_pattern)
   for line in predictions:
-    print(line)
+    print(line.decode('utf-8'))
 
 
 if __name__ == '__main__':
